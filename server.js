@@ -15,3 +15,5 @@ app.get("/", async (req, res) => {
 app.listen("5000", (req, res) => {
   console.log("listening");
 });
+
+module.exports = app;
