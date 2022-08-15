@@ -16,6 +16,7 @@ app.get("/", async (req, res) => {
 
 app.get("/job", async (req, res) => {
   await getData();
+  res.status(200).json("all good");
 });
 
 const getData = async () => {
